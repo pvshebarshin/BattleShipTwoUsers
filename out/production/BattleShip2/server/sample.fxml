@@ -1,0 +1,499 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<GridPane alignment="center" hgap="10" prefHeight="412.0" prefWidth="503.0" vgap="10" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="server.Controller">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="300.0" prefWidth="300.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="50.0" prefWidth="100.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="300.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="100.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+            <RowConstraints minHeight="50.0" prefHeight="50.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="300.0" prefHeight="300.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="100.0" prefHeight="100.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <GridPane gridLinesVisible="true" GridPane.columnIndex="2" GridPane.rowIndex="1">
+              <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                 <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                 <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                 <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                 <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                 <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                 <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                 <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                 <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+              </columnConstraints>
+              <rowConstraints>
+                  <RowConstraints />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+              </rowConstraints>
+               <children>
+            <Label alignment="CENTER" prefHeight="44.0" prefWidth="66.0" GridPane.rowIndex="1">
+                <font>
+                    <Font size="22.0" />
+                </font></Label>
+            <Label alignment="CENTER" prefHeight="80.0" prefWidth="88.0" text="9" GridPane.rowIndex="11">
+                <font>
+                    <Font size="22.0" />
+                </font></Label>
+            <Label alignment="CENTER" prefHeight="46.0" prefWidth="60.0" text="8" GridPane.rowIndex="10">
+                <font>
+                    <Font size="22.0" />
+                </font></Label>
+            <Label alignment="CENTER" prefHeight="80.0" prefWidth="104.0" text="7" GridPane.rowIndex="9">
+                <font>
+                    <Font size="22.0" />
+                </font></Label>
+            <Label alignment="CENTER" prefHeight="71.0" prefWidth="88.0" text="6" GridPane.rowIndex="8">
+                <font>
+                    <Font size="22.0" />
+                </font></Label>
+            <Label alignment="CENTER" prefHeight="47.0" prefWidth="72.0" text="5" GridPane.rowIndex="7">
+                <font>
+                    <Font size="22.0" />
+                </font></Label>
+            <Label alignment="CENTER" prefHeight="50.0" prefWidth="63.0" text="9" GridPane.columnIndex="10" GridPane.rowIndex="1">
+               <font>
+                  <Font size="22.0" />
+               </font></Label>
+            <Label alignment="CENTER" prefHeight="77.0" prefWidth="101.0" text="4" GridPane.rowIndex="6">
+                <font>
+                    <Font size="22.0" />
+                </font></Label>
+            <Label alignment="CENTER" prefHeight="81.0" prefWidth="82.0" text="3" GridPane.rowIndex="5">
+                <font>
+                    <Font size="22.0" />
+                </font></Label>
+            <Label alignment="CENTER" prefHeight="44.0" prefWidth="64.0" text="8" GridPane.columnIndex="9" GridPane.rowIndex="1">
+               <font>
+                  <Font size="22.0" />
+               </font></Label>
+            <Label alignment="CENTER" prefHeight="55.0" prefWidth="55.0" text="2" GridPane.rowIndex="4">
+                <font>
+                    <Font size="22.0" />
+                </font></Label>
+            <Label alignment="CENTER" prefHeight="45.0" prefWidth="59.0" text="7" GridPane.columnIndex="8" GridPane.rowIndex="1">
+               <font>
+                  <Font size="22.0" />
+               </font></Label>
+            <Label alignment="CENTER" prefHeight="42.0" prefWidth="51.0" text="6" GridPane.columnIndex="7" GridPane.rowIndex="1">
+               <font>
+                  <Font size="22.0" />
+               </font></Label>
+            <Label alignment="CENTER" prefHeight="63.0" prefWidth="77.0" text="1" GridPane.rowIndex="3">
+                <font>
+                    <Font size="22.0" />
+                </font></Label>
+            <Label alignment="CENTER" prefHeight="48.0" prefWidth="58.0" text="5" GridPane.columnIndex="6" GridPane.rowIndex="1">
+               <font>
+                  <Font size="22.0" />
+               </font></Label>
+            <Label alignment="CENTER" prefHeight="66.0" prefWidth="82.0" text="0" GridPane.rowIndex="2">
+                <font>
+                    <Font size="22.0" />
+                </font></Label>
+            <Label alignment="CENTER" prefHeight="48.0" prefWidth="56.0" text="4" GridPane.columnIndex="5" GridPane.rowIndex="1">
+               <font>
+                  <Font size="22.0" />
+               </font></Label>
+            <Label alignment="CENTER" prefHeight="53.0" prefWidth="63.0" text="3" GridPane.columnIndex="4" GridPane.rowIndex="1">
+               <font>
+                  <Font size="22.0" />
+               </font></Label>
+            <Label alignment="CENTER" prefHeight="46.0" prefWidth="68.0" text="2" GridPane.columnIndex="3" GridPane.rowIndex="1">
+               <font>
+                  <Font size="22.0" />
+               </font></Label>
+            <Label alignment="CENTER" ellipsisString="" prefHeight="32.0" prefWidth="33.0" text="0" GridPane.columnIndex="1" GridPane.rowIndex="1">
+               <font>
+                  <Font size="22.0" />
+               </font>
+            </Label>
+                  <Button fx:id="btn99" cacheShape="false" centerShape="false" ellipsisString="" focusTraversable="false" mnemonicParsing="false" onAction="#onClick" prefHeight="43.0" prefWidth="48.0" scaleShape="false" stylesheets="@../style/button.css" userData="99" GridPane.columnIndex="10" GridPane.rowIndex="11" />
+                   <Button fx:id="btn90" cacheShape="false" centerShape="false" ellipsisString="" focusTraversable="false" mnemonicParsing="false" onAction="#onClick" prefHeight="43.0" prefWidth="49.0" scaleShape="false" stylesheets="@../style/button.css" userData="90" GridPane.columnIndex="1" GridPane.rowIndex="11" />
+                   <Button fx:id="btn88" cacheShape="false" centerShape="false" focusTraversable="false" mnemonicParsing="false" onAction="#onClick" prefHeight="45.0" prefWidth="43.0" scaleShape="false" stylesheets="@../style/button.css" userData="88" GridPane.columnIndex="9" GridPane.rowIndex="10" />
+                   <Button fx:id="btn79" cacheShape="false" centerShape="false" focusTraversable="false" mnemonicParsing="false" onAction="#onClick" prefHeight="45.0" prefWidth="43.0" scaleShape="false" stylesheets="@../style/button.css" userData="79" GridPane.columnIndex="10" GridPane.rowIndex="9" />
+                   <Button fx:id="btn87" cacheShape="false" centerShape="false" focusTraversable="false" mnemonicParsing="false" onAction="#onClick" prefHeight="53.0" prefWidth="48.0" scaleShape="false" stylesheets="@../style/button.css" userData="87" GridPane.columnIndex="8" GridPane.rowIndex="10" />
+                  <Button fx:id="btn86" cacheShape="false" centerShape="false" focusTraversable="false" mnemonicParsing="false" onAction="#onClick" prefHeight="46.0" prefWidth="47.0" scaleShape="false" stylesheets="@../style/button.css" userData="86" GridPane.columnIndex="7" GridPane.rowIndex="10" />
+                  <Button fx:id="btn85" cacheShape="false" centerShape="false" focusTraversable="false" mnemonicParsing="false" onAction="#onClick" prefHeight="49.0" prefWidth="43.0" scaleShape="false" stylesheets="@../style/button.css" userData="85" GridPane.columnIndex="6" GridPane.rowIndex="10" />
+                  <Button fx:id="btn84" cacheShape="false" centerShape="false" focusTraversable="false" mnemonicParsing="false" onAction="#onClick" prefHeight="47.0" prefWidth="50.0" scaleShape="false" stylesheets="@../style/button.css" userData="84" GridPane.columnIndex="5" GridPane.rowIndex="10" />
+                  <Button fx:id="btn73" cacheShape="false" centerShape="false" focusTraversable="false" mnemonicParsing="false" onAction="#onClick" prefHeight="46.0" prefWidth="55.0" scaleShape="false" stylesheets="@../style/button.css" userData="73" GridPane.columnIndex="4" GridPane.rowIndex="9" />
+                  <Button fx:id="btn83" cacheShape="false" centerShape="false" focusTraversable="false" mnemonicParsing="false" onAction="#onClick" prefHeight="52.0" prefWidth="51.0" scaleShape="false" stylesheets="@../style/button.css" userData="83" GridPane.columnIndex="4" GridPane.rowIndex="10" />
+                  <Button fx:id="btn82" cacheShape="false" centerShape="false" focusTraversable="false" mnemonicParsing="false" onAction="#onClick" prefHeight="47.0" prefWidth="52.0" scaleShape="false" stylesheets="@../style/button.css" userData="82" GridPane.columnIndex="3" GridPane.rowIndex="10" />
+                  <Button fx:id="btn81" cacheShape="false" centerShape="false" focusTraversable="false" mnemonicParsing="false" onAction="#onClick" prefHeight="40.0" prefWidth="48.0" scaleShape="false" stylesheets="@../style/button.css" userData="81" GridPane.columnIndex="2" GridPane.rowIndex="10" />
+                  <Button fx:id="btn80" cacheShape="false" centerShape="false" focusTraversable="false" mnemonicParsing="false" onAction="#onClick" prefHeight="45.0" prefWidth="48.0" scaleShape="false" stylesheets="@../style/button.css" userData="80" GridPane.columnIndex="1" GridPane.rowIndex="10" />
+                  <Button fx:id="btn72" cacheShape="false" centerShape="false" focusTraversable="false" mnemonicParsing="false" onAction="#onClick" prefHeight="46.0" prefWidth="42.0" scaleShape="false" stylesheets="@../style/button.css" userData="72" GridPane.columnIndex="3" GridPane.rowIndex="9" />
+                  <Button fx:id="btn71" cacheShape="false" centerShape="false" focusTraversable="false" mnemonicParsing="false" onAction="#onClick" prefHeight="40.0" prefWidth="54.0" scaleShape="false" stylesheets="@../style/button.css" userData="71" GridPane.columnIndex="2" GridPane.rowIndex="9" />
+                  <Button fx:id="btn70" cacheShape="false" centerShape="false" focusTraversable="false" mnemonicParsing="false" onAction="#onClick" prefHeight="42.0" prefWidth="50.0" scaleShape="false" stylesheets="@../style/button.css" userData="70" GridPane.columnIndex="1" GridPane.rowIndex="9" />
+                  <Button fx:id="btn89" cacheShape="false" centerShape="false" focusTraversable="false" mnemonicParsing="false" onAction="#onClick" prefHeight="40.0" prefWidth="50.0" scaleShape="false" stylesheets="@../style/button.css" userData="89" GridPane.columnIndex="10" GridPane.rowIndex="10" />
+                  <Button fx:id="btn78" cacheShape="false" centerShape="false" focusTraversable="false" mnemonicParsing="false" onAction="#onClick" prefHeight="49.0" prefWidth="50.0" scaleShape="false" stylesheets="@../style/button.css" userData="78" GridPane.columnIndex="9" GridPane.rowIndex="9" />
+                  <Button fx:id="btn68" cacheShape="false" centerShape="false" focusTraversable="false" mnemonicParsing="false" onAction="#onClick" prefHeight="45.0" prefWidth="46.0" scaleShape="false" stylesheets="@../style/button.css" userData="68" GridPane.columnIndex="9" GridPane.rowIndex="8" />
+                  <Button fx:id="btn67" cacheShape="false" centerShape="false" focusTraversable="false" mnemonicParsing="false" onAction="#onClick" prefHeight="48.0" prefWidth="45.0" scaleShape="false" stylesheets="@../style/button.css" userData="67" GridPane.columnIndex="8" GridPane.rowIndex="8" />
+                  <Button fx:id="btn77" cacheShape="false" centerShape="false" focusTraversable="false" mnemonicParsing="false" onAction="#onClick" prefHeight="44.0" prefWidth="45.0" scaleShape="false" stylesheets="@../style/button.css" userData="77" GridPane.columnIndex="8" GridPane.rowIndex="9" />
+                  <Button fx:id="btn60" cacheShape="false" centerShape="false" focusTraversable="false" mnemonicParsing="false" onAction="#onClick" prefHeight="56.0" prefWidth="65.0" scaleShape="false" stylesheets="@../style/button.css" userData="60" GridPane.columnIndex="1" GridPane.rowIndex="8" />
+                  <Button fx:id="btn69" cacheShape="false" centerShape="false" focusTraversable="false" mnemonicParsing="false" onAction="#onClick" prefHeight="50.0" prefWidth="61.0" scaleShape="false" stylesheets="@../style/button.css" userData="69" GridPane.columnIndex="10" GridPane.rowIndex="8" />
+            <Label alignment="CENTER" prefHeight="41.0" prefWidth="53.0" text="1" textAlignment="CENTER" GridPane.columnIndex="2" GridPane.rowIndex="1">
+               <font>
+                  <Font size="22.0" />
+               </font></Label>
+                  <Button fx:id="btn66" cacheShape="false" centerShape="false" focusTraversable="false" mnemonicParsing="false" onAction="#onClick" prefHeight="41.0" prefWidth="46.0" scaleShape="false" stylesheets="@../style/button.css" userData="66" GridPane.columnIndex="7" GridPane.rowIndex="8" />
+                  <Button fx:id="btn58" cacheShape="false" centerShape="false" focusTraversable="false" mnemonicParsing="false" onAction="#onClick" prefHeight="51.0" prefWidth="56.0" scaleShape="false" stylesheets="@../style/button.css" userData="58" GridPane.columnIndex="9" GridPane.rowIndex="7" />
+                  <Button fx:id="btn76" cacheShape="false" centerShape="false" focusTraversable="false" mnemonicParsing="false" onAction="#onClick" prefHeight="44.0" prefWidth="50.0" scaleShape="false" stylesheets="@../style/button.css" userData="76" GridPane.columnIndex="7" GridPane.rowIndex="9" />
+                  <Button fx:id="btn65" cacheShape="false" centerShape="false" focusTraversable="false" mnemonicParsing="false" onAction="#onClick" prefHeight="46.0" prefWidth="48.0" scaleShape="false" stylesheets="@../style/button.css" userData="65" GridPane.columnIndex="6" GridPane.rowIndex="8" />
+                  <Button fx:id="btn75" cacheShape="false" centerShape="false" focusTraversable="false" mnemonicParsing="false" onAction="#onClick" prefHeight="49.0" prefWidth="50.0" scaleShape="false" stylesheets="@../style/button.css" userData="75" GridPane.columnIndex="6" GridPane.rowIndex="9" />
+                  <Button fx:id="btn64" cacheShape="false" centerShape="false" focusTraversable="false" mnemonicParsing="false" onAction="#onClick" prefHeight="45.0" prefWidth="54.0" scaleShape="false" stylesheets="@../style/button.css" userData="64" GridPane.columnIndex="5" GridPane.rowIndex="8" />
+                  <Button fx:id="btn74" cacheShape="false" centerShape="false" focusTraversable="false" mnemonicParsing="false" onAction="#onClick" prefHeight="39.0" prefWidth="43.0" scaleShape="false" stylesheets="@../style/button.css" userData="74" GridPane.columnIndex="5" GridPane.rowIndex="9" />
+                  <Button fx:id="btn63" cacheShape="false" centerShape="false" focusTraversable="false" mnemonicParsing="false" onAction="#onClick" prefHeight="46.0" prefWidth="50.0" scaleShape="false" stylesheets="@../style/button.css" userData="63" GridPane.columnIndex="4" GridPane.rowIndex="8" />
+                  <Button fx:id="btn62" cacheShape="false" centerShape="false" focusTraversable="false" mnemonicParsing="false" onAction="#onClick" prefHeight="40.0" prefWidth="55.0" scaleShape="false" stylesheets="@../style/button.css" userData="62" GridPane.columnIndex="3" GridPane.rowIndex="8" />
+                  <Button fx:id="btn61" cacheShape="false" centerShape="false" focusTraversable="false" mnemonicParsing="false" onAction="#onClick" prefHeight="41.0" prefWidth="48.0" scaleShape="false" stylesheets="@../style/button.css" userData="61" GridPane.columnIndex="2" GridPane.rowIndex="8" />
+                  <Button fx:id="btn57" cacheShape="false" centerShape="false" focusTraversable="false" mnemonicParsing="false" onAction="#onClick" prefHeight="43.0" prefWidth="49.0" scaleShape="false" stylesheets="@../style/button.css" userData="57" GridPane.columnIndex="8" GridPane.rowIndex="7" />
+                  <Button fx:id="btn56" cacheShape="false" centerShape="false" focusTraversable="false" mnemonicParsing="false" onAction="#onClick" prefHeight="43.0" prefWidth="55.0" scaleShape="false" stylesheets="@../style/button.css" userData="56" GridPane.columnIndex="7" GridPane.rowIndex="7" />
+                  <Button fx:id="btn55" cacheShape="false" centerShape="false" focusTraversable="false" mnemonicParsing="false" onAction="#onClick" prefHeight="41.0" prefWidth="49.0" scaleShape="false" stylesheets="@../style/button.css" userData="55" GridPane.columnIndex="6" GridPane.rowIndex="7" />
+                  <Button fx:id="btn54" cacheShape="false" centerShape="false" focusTraversable="false" mnemonicParsing="false" onAction="#onClick" prefHeight="35.0" prefWidth="52.0" scaleShape="false" stylesheets="@../style/button.css" userData="54" GridPane.columnIndex="5" GridPane.rowIndex="7" />
+                  <Button fx:id="btn53" cacheShape="false" centerShape="false" focusTraversable="false" mnemonicParsing="false" onAction="#onClick" prefHeight="46.0" prefWidth="58.0" scaleShape="false" stylesheets="@../style/button.css" userData="53" GridPane.columnIndex="4" GridPane.rowIndex="7" />
+                  <Button fx:id="btn48" cacheShape="false" centerShape="false" focusTraversable="false" mnemonicParsing="false" onAction="#onClick" prefHeight="53.0" prefWidth="44.0" scaleShape="false" stylesheets="@../style/button.css" userData="48" GridPane.columnIndex="9" GridPane.rowIndex="6" />
+                  <Button fx:id="btn52" cacheShape="false" centerShape="false" focusTraversable="false" mnemonicParsing="false" onAction="#onClick" prefHeight="35.0" prefWidth="42.0" scaleShape="false" stylesheets="@../style/button.css" userData="52" GridPane.columnIndex="3" GridPane.rowIndex="7" />
+                  <Button fx:id="btn51" cacheShape="false" centerShape="false" focusTraversable="false" mnemonicParsing="false" onAction="#onClick" prefHeight="47.0" prefWidth="68.0" scaleShape="false" stylesheets="@../style/button.css" userData="51" GridPane.columnIndex="2" GridPane.rowIndex="7" />
+                  <Button fx:id="btn50" cacheShape="false" centerShape="false" focusTraversable="false" mnemonicParsing="false" onAction="#onClick" prefHeight="50.0" prefWidth="53.0" scaleShape="false" stylesheets="@../style/button.css" userData="50" GridPane.columnIndex="1" GridPane.rowIndex="7" />
+                  <Button fx:id="btn59" cacheShape="false" centerShape="false" focusTraversable="false" mnemonicParsing="false" onAction="#onClick" prefHeight="50.0" prefWidth="59.0" scaleShape="false" stylesheets="@../style/button.css" userData="59" GridPane.columnIndex="10" GridPane.rowIndex="7" />
+                  <Button fx:id="btn47" cacheShape="false" centerShape="false" focusTraversable="false" mnemonicParsing="false" onAction="#onClick" prefHeight="49.0" prefWidth="61.0" scaleShape="false" stylesheets="@../style/button.css" userData="47" GridPane.columnIndex="8" GridPane.rowIndex="6" />
+                  <Button fx:id="btn46" cacheShape="false" centerShape="false" focusTraversable="false" mnemonicParsing="false" onAction="#onClick" prefHeight="46.0" prefWidth="53.0" scaleShape="false" stylesheets="@../style/button.css" userData="46" GridPane.columnIndex="7" GridPane.rowIndex="6" />
+                  <Button fx:id="btn45" cacheShape="false" centerShape="false" focusTraversable="false" mnemonicParsing="false" onAction="#onClick" prefHeight="59.0" prefWidth="59.0" scaleShape="false" stylesheets="@../style/button.css" userData="45" GridPane.columnIndex="6" GridPane.rowIndex="6" />
+                  <Button fx:id="btn44" cacheShape="false" centerShape="false" focusTraversable="false" mnemonicParsing="false" onAction="#onClick" prefHeight="46.0" prefWidth="55.0" scaleShape="false" stylesheets="@../style/button.css" userData="44" GridPane.columnIndex="5" GridPane.rowIndex="6" />
+                  <Button fx:id="btn43" cacheShape="false" centerShape="false" focusTraversable="false" mnemonicParsing="false" onAction="#onClick" prefHeight="50.0" prefWidth="66.0" scaleShape="false" stylesheets="@../style/button.css" userData="43" GridPane.columnIndex="4" GridPane.rowIndex="6" />
+                  <Button fx:id="btn42" cacheShape="false" centerShape="false" focusTraversable="false" mnemonicParsing="false" onAction="#onClick" prefHeight="47.0" prefWidth="57.0" scaleShape="false" stylesheets="@../style/button.css" userData="42" GridPane.columnIndex="3" GridPane.rowIndex="6" />
+                  <Button fx:id="btn41" cacheShape="false" centerShape="false" focusTraversable="false" mnemonicParsing="false" onAction="#onClick" prefHeight="51.0" prefWidth="51.0" scaleShape="false" stylesheets="@../style/button.css" userData="41" GridPane.columnIndex="2" GridPane.rowIndex="6" />
+                  <Button fx:id="btn40" cacheShape="false" centerShape="false" focusTraversable="false" mnemonicParsing="false" onAction="#onClick" prefHeight="45.0" prefWidth="53.0" scaleShape="false" stylesheets="@../style/button.css" userData="40" GridPane.columnIndex="1" GridPane.rowIndex="6" />
+                  <Button fx:id="btn49" cacheShape="false" centerShape="false" focusTraversable="false" mnemonicParsing="false" onAction="#onClick" prefHeight="52.0" prefWidth="62.0" scaleShape="false" stylesheets="@../style/button.css" userData="49" GridPane.columnIndex="10" GridPane.rowIndex="6" />
+                  <Button fx:id="btn35" cacheShape="false" centerShape="false" ellipsisString="" focusTraversable="false" mnemonicParsing="false" onAction="#onClick" prefHeight="53.0" prefWidth="57.0" scaleShape="false" stylesheets="@../style/button.css" userData="35" GridPane.columnIndex="6" GridPane.rowIndex="5" />
+                  <Button fx:id="btn32" cacheShape="false" centerShape="false" ellipsisString="" focusTraversable="false" mnemonicParsing="false" onAction="#onClick" prefHeight="50.0" prefWidth="52.0" scaleShape="false" stylesheets="@../style/button.css" userData="32" GridPane.columnIndex="3" GridPane.rowIndex="5" />
+                  <Button fx:id="btn31" cacheShape="false" centerShape="false" ellipsisString="" focusTraversable="false" mnemonicParsing="false" onAction="#onClick" prefHeight="46.0" prefWidth="56.0" scaleShape="false" stylesheets="@../style/button.css" userData="31" GridPane.columnIndex="2" GridPane.rowIndex="5" />
+                  <Button fx:id="btn30" cacheShape="false" centerShape="false" ellipsisString="" focusTraversable="false" mnemonicParsing="false" onAction="#onClick" prefHeight="48.0" prefWidth="48.0" scaleShape="false" stylesheets="@../style/button.css" userData="30" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+                  <Button fx:id="btn28" cacheShape="false" centerShape="false" ellipsisString="" focusTraversable="false" mnemonicParsing="false" onAction="#onClick" prefHeight="49.0" prefWidth="47.0" scaleShape="false" stylesheets="@../style/button.css" userData="28" GridPane.columnIndex="9" GridPane.rowIndex="4" />
+                  <Button fx:id="btn09" cacheShape="false" centerShape="false" focusTraversable="false" mnemonicParsing="false" onAction="#onClick" prefHeight="49.0" prefWidth="51.0" scaleShape="false" stylesheets="@../style/button.css" userData="09" GridPane.columnIndex="10" GridPane.rowIndex="2" />
+                  <Button fx:id="btn93" cacheShape="false" centerShape="false" ellipsisString="" focusTraversable="false" mnemonicParsing="false" onAction="#onClick" prefHeight="47.0" prefWidth="59.0" scaleShape="false" stylesheets="@../style/button.css" userData="93" GridPane.columnIndex="4" GridPane.rowIndex="11" />
+                  <Button fx:id="btn92" cacheShape="false" centerShape="false" ellipsisString="" focusTraversable="false" mnemonicParsing="false" onAction="#onClick" prefHeight="43.0" prefWidth="40.0" stylesheets="@../style/button.css" userData="92" GridPane.columnIndex="3" GridPane.rowIndex="11" />
+                  <Button fx:id="btn91" cacheShape="false" centerShape="false" ellipsisString="" focusTraversable="false" mnemonicParsing="false" onAction="#onClick" prefHeight="49.0" prefWidth="60.0" scaleShape="false" stylesheets="@../style/button.css" userData="91" GridPane.columnIndex="2" GridPane.rowIndex="11" />
+                  <Button fx:id="btn97" cacheShape="false" centerShape="false" ellipsisString="" focusTraversable="false" mnemonicParsing="false" onAction="#onClick" prefHeight="56.0" prefWidth="53.0" scaleShape="false" stylesheets="@../style/button.css" userData="97" GridPane.columnIndex="8" GridPane.rowIndex="11" />
+                  <Button fx:id="btn96" cacheShape="false" centerShape="false" ellipsisString="" focusTraversable="false" mnemonicParsing="false" onAction="#onClick" prefHeight="56.0" prefWidth="52.0" scaleShape="false" stylesheets="@../style/button.css" userData="96" GridPane.columnIndex="7" GridPane.rowIndex="11" />
+                  <Button fx:id="btn95" cacheShape="false" centerShape="false" ellipsisString="" focusTraversable="false" mnemonicParsing="false" onAction="#onClick" prefHeight="69.0" prefWidth="82.0" scaleShape="false" stylesheets="@../style/button.css" userData="95" GridPane.columnIndex="6" GridPane.rowIndex="11" />
+                  <Button fx:id="btn94" cacheShape="false" centerShape="false" ellipsisString="" focusTraversable="false" mnemonicParsing="false" onAction="#onClick" prefHeight="57.0" prefWidth="48.0" scaleShape="false" stylesheets="@../style/button.css" userData="94" GridPane.columnIndex="5" GridPane.rowIndex="11" />
+                  <Button fx:id="btn01" cacheShape="false" centerShape="false" ellipsisString="" focusTraversable="false" mnemonicParsing="false" onAction="#onClick" prefHeight="42.0" prefWidth="47.0" scaleShape="false" stylesheets="@../style/button.css" userData="01" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+                  <Button fx:id="btn00" cacheShape="false" centerShape="false" ellipsisString="" focusTraversable="false" mnemonicParsing="false" onAction="#onClick" prefHeight="45.0" prefWidth="48.0" scaleShape="false" stylesheets="@../style/button.css" userData="00" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                  <Button fx:id="btn98" cacheShape="false" centerShape="false" ellipsisString="" focusTraversable="false" mnemonicParsing="false" onAction="#onClick" prefHeight="51.0" prefWidth="55.0" scaleShape="false" stylesheets="@../style/button.css" userData="98" GridPane.columnIndex="9" GridPane.rowIndex="11" />
+                  <Button fx:id="btn27" cacheShape="false" centerShape="false" ellipsisString="" focusTraversable="false" mnemonicParsing="false" onAction="#onClick" prefHeight="45.0" prefWidth="51.0" scaleShape="false" stylesheets="@../style/button.css" userData="27" GridPane.columnIndex="8" GridPane.rowIndex="4" />
+                  <Button fx:id="btn26" cacheShape="false" centerShape="false" ellipsisString="" focusTraversable="false" mnemonicParsing="false" onAction="#onClick" prefHeight="50.0" prefWidth="54.0" scaleShape="false" stylesheets="@../style/button.css" userData="26" GridPane.columnIndex="7" GridPane.rowIndex="4" />
+                  <Button fx:id="btn25" cacheShape="false" centerShape="false" ellipsisString="" focusTraversable="false" mnemonicParsing="false" onAction="#onClick" prefHeight="42.0" prefWidth="45.0" scaleShape="false" stylesheets="@../style/button.css" userData="25" GridPane.columnIndex="6" GridPane.rowIndex="4" />
+                  <Button fx:id="btn24" cacheShape="false" centerShape="false" ellipsisString="" focusTraversable="false" mnemonicParsing="false" onAction="#onClick" prefHeight="46.0" prefWidth="52.0" scaleShape="false" stylesheets="@../style/button.css" userData="24" GridPane.columnIndex="5" GridPane.rowIndex="4" />
+                  <Button fx:id="btn23" cacheShape="false" centerShape="false" ellipsisString="" focusTraversable="false" mnemonicParsing="false" onAction="#onClick" prefHeight="50.0" prefWidth="51.0" scaleShape="false" stylesheets="@../style/button.css" userData="23" GridPane.columnIndex="4" GridPane.rowIndex="4" />
+                  <Button fx:id="btn22" cacheShape="false" centerShape="false" ellipsisString="" focusTraversable="false" mnemonicParsing="false" onAction="#onClick" prefHeight="48.0" prefWidth="55.0" scaleShape="false" stylesheets="@../style/button.css" userData="22" GridPane.columnIndex="3" GridPane.rowIndex="4" />
+                  <Button fx:id="btn21" cacheShape="false" centerShape="false" ellipsisString="" focusTraversable="false" mnemonicParsing="false" onAction="#onClick" prefHeight="48.0" prefWidth="54.0" scaleShape="false" stylesheets="@../style/button.css" userData="21" GridPane.columnIndex="2" GridPane.rowIndex="4" />
+                  <Button fx:id="btn20" cacheShape="false" centerShape="false" ellipsisString="" focusTraversable="false" mnemonicParsing="false" onAction="#onClick" prefHeight="40.0" prefWidth="45.0" scaleShape="false" stylesheets="@../style/button.css" userData="20" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+                  <Button fx:id="btn29" cacheShape="false" centerShape="false" ellipsisString="" focusTraversable="false" mnemonicParsing="false" onAction="#onClick" prefHeight="46.0" prefWidth="57.0" scaleShape="false" stylesheets="@../style/button.css" userData="29" GridPane.columnIndex="10" GridPane.rowIndex="4" />
+                  <Button fx:id="btn18" cacheShape="false" centerShape="false" ellipsisString="" focusTraversable="false" mnemonicParsing="false" onAction="#onClick" prefHeight="50.0" prefWidth="47.0" scaleShape="false" stylesheets="@../style/button.css" userData="18" GridPane.columnIndex="9" GridPane.rowIndex="3" />
+                  <Button fx:id="btn17" cacheShape="false" centerShape="false" ellipsisString="" focusTraversable="false" mnemonicParsing="false" onAction="#onClick" prefHeight="42.0" prefWidth="42.0" scaleShape="false" stylesheets="@../style/button.css" userData="17" GridPane.columnIndex="8" GridPane.rowIndex="3" />
+                  <Button fx:id="btn16" cacheShape="false" centerShape="false" ellipsisString="" focusTraversable="false" mnemonicParsing="false" onAction="#onClick" prefHeight="46.0" prefWidth="47.0" scaleShape="false" stylesheets="@../style/button.css" userData="16" GridPane.columnIndex="7" GridPane.rowIndex="3" />
+                  <Button fx:id="btn15" cacheShape="false" centerShape="false" ellipsisString="" focusTraversable="false" mnemonicParsing="false" onAction="#onClick" prefHeight="48.0" prefWidth="47.0" scaleShape="false" stylesheets="@../style/button.css" userData="15" GridPane.columnIndex="6" GridPane.rowIndex="3" />
+                  <Button fx:id="btn14" cacheShape="false" centerShape="false" ellipsisString="" focusTraversable="false" mnemonicParsing="false" onAction="#onClick" prefHeight="42.0" prefWidth="44.0" scaleShape="false" stylesheets="@../style/button.css" userData="14" GridPane.columnIndex="5" GridPane.rowIndex="3" />
+                  <Button fx:id="btn13" cacheShape="false" centerShape="false" ellipsisString="" focusTraversable="false" mnemonicParsing="false" onAction="#onClick" prefHeight="44.0" prefWidth="45.0" scaleShape="false" stylesheets="@../style/button.css" userData="13" GridPane.columnIndex="4" GridPane.rowIndex="3" />
+                  <Button fx:id="btn12" cacheShape="false" centerShape="false" ellipsisString="" focusTraversable="false" mnemonicParsing="false" onAction="#onClick" prefHeight="54.0" prefWidth="51.0" scaleShape="false" stylesheets="@../style/button.css" userData="12" GridPane.columnIndex="3" GridPane.rowIndex="3" />
+                  <Button fx:id="btn11" cacheShape="false" centerShape="false" ellipsisString="" focusTraversable="false" mnemonicParsing="false" onAction="#onClick" prefHeight="57.0" prefWidth="57.0" scaleShape="false" stylesheets="@../style/button.css" userData="11" GridPane.columnIndex="2" GridPane.rowIndex="3" />
+                  <Button fx:id="btn38" cacheShape="false" centerShape="false" ellipsisString="" focusTraversable="false" mnemonicParsing="false" onAction="#onClick" prefHeight="46.0" prefWidth="53.0" scaleShape="false" stylesheets="@../style/button.css" userData="38" GridPane.columnIndex="9" GridPane.rowIndex="5" />
+                  <Button fx:id="btn10" cacheShape="false" centerShape="false" ellipsisString="" focusTraversable="false" mnemonicParsing="false" onAction="#onClick" prefHeight="54.0" prefWidth="78.0" scaleShape="false" stylesheets="@../style/button.css" userData="10" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+                  <Button fx:id="btn19" cacheShape="false" centerShape="false" ellipsisString="" focusTraversable="false" mnemonicParsing="false" onAction="#onClick" prefHeight="51.0" prefWidth="56.0" scaleShape="false" stylesheets="@../style/button.css" userData="19" GridPane.columnIndex="10" GridPane.rowIndex="3" />
+                  <Button fx:id="btn39" cacheShape="false" centerShape="false" ellipsisString="" focusTraversable="false" mnemonicParsing="false" onAction="#onClick" prefHeight="48.0" prefWidth="50.0" scaleShape="false" stylesheets="@../style/button.css" userData="39" GridPane.columnIndex="10" GridPane.rowIndex="5" />
+                  <Button fx:id="btn08" cacheShape="false" centerShape="false" ellipsisString="" focusTraversable="false" mnemonicParsing="false" onAction="#onClick" prefHeight="39.0" prefWidth="50.0" scaleShape="false" stylesheets="@../style/button.css" userData="08" GridPane.columnIndex="9" GridPane.rowIndex="2" />
+                  <Button fx:id="btn07" cacheShape="false" centerShape="false" ellipsisString="" focusTraversable="false" mnemonicParsing="false" onAction="#onClick" prefHeight="42.0" prefWidth="42.0" scaleShape="false" stylesheets="@../style/button.css" userData="07" GridPane.columnIndex="8" GridPane.rowIndex="2" />
+                  <Button fx:id="btn06" cacheShape="false" centerShape="false" ellipsisString="" focusTraversable="false" mnemonicParsing="false" onAction="#onClick" prefHeight="44.0" prefWidth="48.0" scaleShape="false" stylesheets="@../style/button.css" userData="06" GridPane.columnIndex="7" GridPane.rowIndex="2" />
+                  <Button fx:id="btn05" cacheShape="false" centerShape="false" ellipsisString="" focusTraversable="false" mnemonicParsing="false" onAction="#onClick" prefHeight="43.0" prefWidth="39.0" scaleShape="false" stylesheets="@../style/button.css" userData="05" GridPane.columnIndex="6" GridPane.rowIndex="2" />
+                  <Button fx:id="btn04" cacheShape="false" centerShape="false" ellipsisString="" focusTraversable="false" mnemonicParsing="false" onAction="#onClick" prefHeight="42.0" prefWidth="44.0" scaleShape="false" stylesheets="@../style/button.css" userData="04" GridPane.columnIndex="5" GridPane.rowIndex="2" />
+                  <Button fx:id="btn03" cacheShape="false" centerShape="false" ellipsisString="" focusTraversable="false" mnemonicParsing="false" onAction="#onClick" prefHeight="43.0" prefWidth="44.0" scaleShape="false" stylesheets="@../style/button.css" userData="03" GridPane.columnIndex="4" GridPane.rowIndex="2" />
+                  <Button fx:id="btn02" cacheShape="false" centerShape="false" ellipsisString="" focusTraversable="false" mnemonicParsing="false" onAction="#onClick" prefHeight="43.0" prefWidth="51.0" scaleShape="false" stylesheets="@../style/button.css" userData="02" GridPane.columnIndex="3" GridPane.rowIndex="2" />
+                  <Button fx:id="btn33" cacheShape="false" centerShape="false" ellipsisString="" focusTraversable="false" mnemonicParsing="false" onAction="#onClick" prefHeight="44.0" prefWidth="48.0" scaleShape="false" stylesheets="@../style/button.css" userData="33" GridPane.columnIndex="4" GridPane.rowIndex="5" />
+                  <Button fx:id="btn34" cacheShape="false" centerShape="false" ellipsisString="" focusTraversable="false" mnemonicParsing="false" onAction="#onClick" prefHeight="50.0" prefWidth="45.0" scaleShape="false" stylesheets="@../style/button.css" userData="34" GridPane.columnIndex="5" GridPane.rowIndex="5" />
+                  <Button fx:id="btn37" cacheShape="false" centerShape="false" ellipsisString="" focusTraversable="false" mnemonicParsing="false" onAction="#onClick" prefHeight="46.0" prefWidth="46.0" scaleShape="false" stylesheets="@../style/button.css" userData="37" GridPane.columnIndex="8" GridPane.rowIndex="5" />
+                  <Button fx:id="btn36" cacheShape="false" centerShape="false" ellipsisString="" focusTraversable="false" mnemonicParsing="false" onAction="#onClick" prefHeight="51.0" prefWidth="49.0" scaleShape="false" stylesheets="@../style/button.css" userData="36" GridPane.columnIndex="7" GridPane.rowIndex="5" />
+               </children>
+            </GridPane>
+            <TextArea fx:id="messeges" onKeyPressed="#press" prefHeight="200.0" prefWidth="200.0" GridPane.rowIndex="2" />
+      <Label alignment="CENTER" contentDisplay="CENTER" text="Partner" textAlignment="CENTER" GridPane.columnIndex="2">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <GridPane GridPane.columnIndex="3" GridPane.rowIndex="1">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints maxHeight="260.00001525878906" minHeight="10.0" prefHeight="260.00001525878906" vgrow="SOMETIMES" />
+          <RowConstraints maxHeight="144.0" minHeight="10.0" prefHeight="39.99998474121094" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <GridPane prefHeight="261.0" prefWidth="171.0">
+              <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="97.0" minWidth="50.0" prefWidth="94.0" />
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="52.0" minWidth="31.0" prefWidth="34.0" />
+              </columnConstraints>
+              <rowConstraints>
+                <RowConstraints minHeight="10.0" prefHeight="50.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="50.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="50.0" vgrow="SOMETIMES" />
+              </rowConstraints>
+               <children>
+                  <Label prefHeight="17.0" prefWidth="82.0" text="Input row" GridPane.rowIndex="1" />
+                  <Label text="Input column" GridPane.rowIndex="2" />
+                  <TextField fx:id="columnText" onAction="#onColumnClick" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                  <TextField fx:id="rowText" onAction="#onRowEnter" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                  <Label fx:id="stat" text="lable" />
+               </children>
+            </GridPane>
+            <Button fx:id="press" mnemonicParsing="false" onAction="#onPress" text="Open fier" GridPane.rowIndex="1" />
+         </children>
+      </GridPane>
+      <GridPane gridLinesVisible="true" GridPane.columnIndex="0" GridPane.rowIndex="1">
+          <columnConstraints>
+              <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+              <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+              <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+              <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+              <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+              <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+              <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+              <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+              <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+              <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+              <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          </columnConstraints>
+          <rowConstraints>
+              <RowConstraints />
+              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          </rowConstraints>
+          <children>
+              <Label alignment="CENTER" prefHeight="44.0" prefWidth="66.0" GridPane.rowIndex="1">
+                  <font>
+                      <Font size="22.0" />
+                  </font></Label>
+              <Label alignment="CENTER" prefHeight="80.0" prefWidth="88.0" text="9" GridPane.rowIndex="11">
+                  <font>
+                      <Font size="22.0" />
+                  </font></Label>
+              <Label alignment="CENTER" prefHeight="46.0" prefWidth="60.0" text="8" GridPane.rowIndex="10">
+                  <font>
+                      <Font size="22.0" />
+                  </font></Label>
+              <Label alignment="CENTER" prefHeight="80.0" prefWidth="104.0" text="7" GridPane.rowIndex="9">
+                  <font>
+                      <Font size="22.0" />
+                  </font></Label>
+              <Label alignment="CENTER" prefHeight="71.0" prefWidth="88.0" text="6" GridPane.rowIndex="8">
+                  <font>
+                      <Font size="22.0" />
+                  </font></Label>
+              <Label alignment="CENTER" prefHeight="47.0" prefWidth="72.0" text="5" GridPane.rowIndex="7">
+                  <font>
+                      <Font size="22.0" />
+                  </font></Label>
+              <Label alignment="CENTER" prefHeight="50.0" prefWidth="63.0" text="9" GridPane.columnIndex="10" GridPane.rowIndex="1">
+                  <font>
+                      <Font size="22.0" />
+                  </font></Label>
+              <Label alignment="CENTER" prefHeight="77.0" prefWidth="101.0" text="4" GridPane.rowIndex="6">
+                  <font>
+                      <Font size="22.0" />
+                  </font></Label>
+              <Label alignment="CENTER" prefHeight="81.0" prefWidth="82.0" text="3" GridPane.rowIndex="5">
+                  <font>
+                      <Font size="22.0" />
+                  </font></Label>
+              <Label alignment="CENTER" prefHeight="44.0" prefWidth="64.0" text="8" GridPane.columnIndex="9" GridPane.rowIndex="1">
+                  <font>
+                      <Font size="22.0" />
+                  </font></Label>
+              <Label alignment="CENTER" prefHeight="55.0" prefWidth="55.0" text="2" GridPane.rowIndex="4">
+                  <font>
+                      <Font size="22.0" />
+                  </font></Label>
+              <Label alignment="CENTER" prefHeight="45.0" prefWidth="59.0" text="7" GridPane.columnIndex="8" GridPane.rowIndex="1">
+                  <font>
+                      <Font size="22.0" />
+                  </font></Label>
+              <Label alignment="CENTER" prefHeight="42.0" prefWidth="51.0" text="6" GridPane.columnIndex="7" GridPane.rowIndex="1">
+                  <font>
+                      <Font size="22.0" />
+                  </font></Label>
+              <Label alignment="CENTER" prefHeight="63.0" prefWidth="77.0" text="1" GridPane.rowIndex="3">
+                  <font>
+                      <Font size="22.0" />
+                  </font></Label>
+              <Label alignment="CENTER" prefHeight="48.0" prefWidth="58.0" text="5" GridPane.columnIndex="6" GridPane.rowIndex="1">
+                  <font>
+                      <Font size="22.0" />
+                  </font></Label>
+              <Label alignment="CENTER" prefHeight="66.0" prefWidth="82.0" text="0" GridPane.rowIndex="2">
+                  <font>
+                      <Font size="22.0" />
+                  </font></Label>
+              <Label alignment="CENTER" prefHeight="48.0" prefWidth="56.0" text="4" GridPane.columnIndex="5" GridPane.rowIndex="1">
+                  <font>
+                      <Font size="22.0" />
+                  </font></Label>
+              <Label alignment="CENTER" prefHeight="53.0" prefWidth="63.0" text="3" GridPane.columnIndex="4" GridPane.rowIndex="1">
+                  <font>
+                      <Font size="22.0" />
+                  </font></Label>
+              <Label alignment="CENTER" prefHeight="46.0" prefWidth="68.0" text="2" GridPane.columnIndex="3" GridPane.rowIndex="1">
+                  <font>
+                      <Font size="22.0" />
+                  </font></Label>
+              <Label alignment="CENTER" ellipsisString="" prefHeight="32.0" prefWidth="33.0" text="0" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                  <font>
+                      <Font size="22.0" />
+                  </font>
+              </Label>
+              <Button fx:id="bt99" cacheShape="false" centerShape="false" ellipsisString="" focusTraversable="false" mnemonicParsing="false" onAction="#onClickOnMyGrount" prefHeight="43.0" prefWidth="48.0" scaleShape="false" stylesheets="@../style/button.css" userData="99" GridPane.columnIndex="10" GridPane.rowIndex="11" />
+              <Button fx:id="bt90" cacheShape="false" centerShape="false" ellipsisString="" focusTraversable="false" mnemonicParsing="false" onAction="#onClickOnMyGrount" prefHeight="43.0" prefWidth="49.0" scaleShape="false" stylesheets="@../style/button.css" userData="90" GridPane.columnIndex="1" GridPane.rowIndex="11" />
+              <Button fx:id="bt88" cacheShape="false" centerShape="false" focusTraversable="false" mnemonicParsing="false" onAction="#onClickOnMyGrount" prefHeight="45.0" prefWidth="43.0" scaleShape="false" stylesheets="@../style/button.css" userData="88" GridPane.columnIndex="9" GridPane.rowIndex="10" />
+              <Button fx:id="bt79" cacheShape="false" centerShape="false" focusTraversable="false" mnemonicParsing="false" onAction="#onClickOnMyGrount" prefHeight="45.0" prefWidth="43.0" scaleShape="false" stylesheets="@../style/button.css" userData="79" GridPane.columnIndex="10" GridPane.rowIndex="9" />
+              <Button fx:id="bt87" cacheShape="false" centerShape="false" focusTraversable="false" mnemonicParsing="false" onAction="#onClickOnMyGrount" prefHeight="53.0" prefWidth="48.0" scaleShape="false" stylesheets="@../style/button.css" userData="87" GridPane.columnIndex="8" GridPane.rowIndex="10" />
+              <Button fx:id="bt86" cacheShape="false" centerShape="false" focusTraversable="false" mnemonicParsing="false" onAction="#onClickOnMyGrount" prefHeight="46.0" prefWidth="47.0" scaleShape="false" stylesheets="@../style/button.css" userData="86" GridPane.columnIndex="7" GridPane.rowIndex="10" />
+              <Button fx:id="bt85" cacheShape="false" centerShape="false" focusTraversable="false" mnemonicParsing="false" onAction="#onClickOnMyGrount" prefHeight="49.0" prefWidth="43.0" scaleShape="false" stylesheets="@../style/button.css" userData="85" GridPane.columnIndex="6" GridPane.rowIndex="10" />
+              <Button fx:id="bt84" cacheShape="false" centerShape="false" focusTraversable="false" mnemonicParsing="false" onAction="#onClickOnMyGrount" prefHeight="47.0" prefWidth="50.0" scaleShape="false" stylesheets="@../style/button.css" userData="84" GridPane.columnIndex="5" GridPane.rowIndex="10" />
+              <Button fx:id="bt73" cacheShape="false" centerShape="false" focusTraversable="false" mnemonicParsing="false" onAction="#onClickOnMyGrount" prefHeight="46.0" prefWidth="55.0" scaleShape="false" stylesheets="@../style/button.css" userData="73" GridPane.columnIndex="4" GridPane.rowIndex="9" />
+              <Button fx:id="bt83" cacheShape="false" centerShape="false" focusTraversable="false" mnemonicParsing="false" onAction="#onClickOnMyGrount" prefHeight="52.0" prefWidth="51.0" scaleShape="false" stylesheets="@../style/button.css" userData="83" GridPane.columnIndex="4" GridPane.rowIndex="10" />
+              <Button fx:id="bt82" cacheShape="false" centerShape="false" focusTraversable="false" mnemonicParsing="false" onAction="#onClickOnMyGrount" prefHeight="47.0" prefWidth="52.0" scaleShape="false" stylesheets="@../style/button.css" userData="82" GridPane.columnIndex="3" GridPane.rowIndex="10" />
+              <Button fx:id="bt81" cacheShape="false" centerShape="false" focusTraversable="false" mnemonicParsing="false" onAction="#onClickOnMyGrount" prefHeight="40.0" prefWidth="48.0" scaleShape="false" stylesheets="@../style/button.css" userData="81" GridPane.columnIndex="2" GridPane.rowIndex="10" />
+              <Button fx:id="bt80" cacheShape="false" centerShape="false" focusTraversable="false" mnemonicParsing="false" onAction="#onClickOnMyGrount" prefHeight="45.0" prefWidth="48.0" scaleShape="false" stylesheets="@../style/button.css" userData="80" GridPane.columnIndex="1" GridPane.rowIndex="10" />
+              <Button fx:id="bt72" cacheShape="false" centerShape="false" focusTraversable="false" mnemonicParsing="false" onAction="#onClickOnMyGrount" prefHeight="46.0" prefWidth="42.0" scaleShape="false" stylesheets="@../style/button.css" userData="72" GridPane.columnIndex="3" GridPane.rowIndex="9" />
+              <Button fx:id="bt71" cacheShape="false" centerShape="false" focusTraversable="false" mnemonicParsing="false" onAction="#onClickOnMyGrount" prefHeight="40.0" prefWidth="54.0" scaleShape="false" stylesheets="@../style/button.css" userData="71" GridPane.columnIndex="2" GridPane.rowIndex="9" />
+              <Button fx:id="bt70" cacheShape="false" centerShape="false" focusTraversable="false" mnemonicParsing="false" onAction="#onClickOnMyGrount" prefHeight="42.0" prefWidth="50.0" scaleShape="false" stylesheets="@../style/button.css" userData="70" GridPane.columnIndex="1" GridPane.rowIndex="9" />
+              <Button fx:id="bt89" cacheShape="false" centerShape="false" focusTraversable="false" mnemonicParsing="false" onAction="#onClickOnMyGrount" prefHeight="40.0" prefWidth="50.0" scaleShape="false" stylesheets="@../style/button.css" userData="89" GridPane.columnIndex="10" GridPane.rowIndex="10" />
+              <Button fx:id="bt78" cacheShape="false" centerShape="false" focusTraversable="false" mnemonicParsing="false" onAction="#onClickOnMyGrount" prefHeight="49.0" prefWidth="50.0" scaleShape="false" stylesheets="@../style/button.css" userData="78" GridPane.columnIndex="9" GridPane.rowIndex="9" />
+              <Button fx:id="bt68" cacheShape="false" centerShape="false" focusTraversable="false" mnemonicParsing="false" onAction="#onClickOnMyGrount" prefHeight="45.0" prefWidth="46.0" scaleShape="false" stylesheets="@../style/button.css" userData="68" GridPane.columnIndex="9" GridPane.rowIndex="8" />
+              <Button fx:id="bt67" cacheShape="false" centerShape="false" focusTraversable="false" mnemonicParsing="false" onAction="#onClickOnMyGrount" prefHeight="48.0" prefWidth="45.0" scaleShape="false" stylesheets="@../style/button.css" userData="67" GridPane.columnIndex="8" GridPane.rowIndex="8" />
+              <Button fx:id="bt77" cacheShape="false" centerShape="false" focusTraversable="false" mnemonicParsing="false" onAction="#onClickOnMyGrount" prefHeight="44.0" prefWidth="45.0" scaleShape="false" stylesheets="@../style/button.css" userData="77" GridPane.columnIndex="8" GridPane.rowIndex="9" />
+              <Button fx:id="bt60" cacheShape="false" centerShape="false" focusTraversable="false" mnemonicParsing="false" onAction="#onClickOnMyGrount" prefHeight="56.0" prefWidth="65.0" scaleShape="false" stylesheets="@../style/button.css" userData="60" GridPane.columnIndex="1" GridPane.rowIndex="8" />
+              <Button fx:id="bt69" cacheShape="false" centerShape="false" focusTraversable="false" mnemonicParsing="false" onAction="#onClickOnMyGrount" prefHeight="50.0" prefWidth="61.0" scaleShape="false" stylesheets="@../style/button.css" userData="69" GridPane.columnIndex="10" GridPane.rowIndex="8" />
+              <Label alignment="CENTER" prefHeight="41.0" prefWidth="53.0" text="1" textAlignment="CENTER" GridPane.columnIndex="2" GridPane.rowIndex="1">
+                  <font>
+                      <Font size="22.0" />
+                  </font></Label>
+              <Button fx:id="bt66" cacheShape="false" centerShape="false" focusTraversable="false" mnemonicParsing="false" onAction="#onClickOnMyGrount" prefHeight="41.0" prefWidth="46.0" scaleShape="false" stylesheets="@../style/button.css" userData="66" GridPane.columnIndex="7" GridPane.rowIndex="8" />
+              <Button fx:id="bt58" cacheShape="false" centerShape="false" focusTraversable="false" mnemonicParsing="false" onAction="#onClickOnMyGrount" prefHeight="51.0" prefWidth="56.0" scaleShape="false" stylesheets="@../style/button.css" userData="58" GridPane.columnIndex="9" GridPane.rowIndex="7" />
+              <Button fx:id="bt76" cacheShape="false" centerShape="false" focusTraversable="false" mnemonicParsing="false" onAction="#onClickOnMyGrount" prefHeight="44.0" prefWidth="50.0" scaleShape="false" stylesheets="@../style/button.css" userData="76" GridPane.columnIndex="7" GridPane.rowIndex="9" />
+              <Button fx:id="bt65" cacheShape="false" centerShape="false" focusTraversable="false" mnemonicParsing="false" onAction="#onClickOnMyGrount" prefHeight="46.0" prefWidth="48.0" scaleShape="false" stylesheets="@../style/button.css" userData="65" GridPane.columnIndex="6" GridPane.rowIndex="8" />
+              <Button fx:id="bt75" cacheShape="false" centerShape="false" focusTraversable="false" mnemonicParsing="false" onAction="#onClickOnMyGrount" prefHeight="49.0" prefWidth="50.0" scaleShape="false" stylesheets="@../style/button.css" userData="75" GridPane.columnIndex="6" GridPane.rowIndex="9" />
+              <Button fx:id="bt64" cacheShape="false" centerShape="false" focusTraversable="false" mnemonicParsing="false" onAction="#onClickOnMyGrount" prefHeight="45.0" prefWidth="54.0" scaleShape="false" stylesheets="@../style/button.css" userData="64" GridPane.columnIndex="5" GridPane.rowIndex="8" />
+              <Button fx:id="bt74" cacheShape="false" centerShape="false" focusTraversable="false" mnemonicParsing="false" onAction="#onClickOnMyGrount" prefHeight="39.0" prefWidth="43.0" scaleShape="false" stylesheets="@../style/button.css" userData="74" GridPane.columnIndex="5" GridPane.rowIndex="9" />
+              <Button fx:id="bt63" cacheShape="false" centerShape="false" focusTraversable="false" mnemonicParsing="false" onAction="#onClickOnMyGrount" prefHeight="46.0" prefWidth="50.0" scaleShape="false" stylesheets="@../style/button.css" userData="63" GridPane.columnIndex="4" GridPane.rowIndex="8" />
+              <Button fx:id="bt62" cacheShape="false" centerShape="false" focusTraversable="false" mnemonicParsing="false" onAction="#onClickOnMyGrount" prefHeight="40.0" prefWidth="55.0" scaleShape="false" stylesheets="@../style/button.css" userData="62" GridPane.columnIndex="3" GridPane.rowIndex="8" />
+              <Button fx:id="bt61" cacheShape="false" centerShape="false" focusTraversable="false" mnemonicParsing="false" onAction="#onClickOnMyGrount" prefHeight="41.0" prefWidth="48.0" scaleShape="false" stylesheets="@../style/button.css" userData="61" GridPane.columnIndex="2" GridPane.rowIndex="8" />
+              <Button fx:id="bt57" cacheShape="false" centerShape="false" focusTraversable="false" mnemonicParsing="false" onAction="#onClickOnMyGrount" prefHeight="43.0" prefWidth="49.0" scaleShape="false" stylesheets="@../style/button.css" userData="57" GridPane.columnIndex="8" GridPane.rowIndex="7" />
+              <Button fx:id="bt56" cacheShape="false" centerShape="false" focusTraversable="false" mnemonicParsing="false" onAction="#onClickOnMyGrount" prefHeight="43.0" prefWidth="55.0" scaleShape="false" stylesheets="@../style/button.css" userData="56" GridPane.columnIndex="7" GridPane.rowIndex="7" />
+              <Button fx:id="bt55" cacheShape="false" centerShape="false" focusTraversable="false" mnemonicParsing="false" onAction="#onClickOnMyGrount" prefHeight="41.0" prefWidth="49.0" scaleShape="false" stylesheets="@../style/button.css" userData="55" GridPane.columnIndex="6" GridPane.rowIndex="7" />
+              <Button fx:id="bt54" cacheShape="false" centerShape="false" focusTraversable="false" mnemonicParsing="false" onAction="#onClickOnMyGrount" prefHeight="35.0" prefWidth="52.0" scaleShape="false" stylesheets="@../style/button.css" userData="54" GridPane.columnIndex="5" GridPane.rowIndex="7" />
+              <Button fx:id="bt53" cacheShape="false" centerShape="false" focusTraversable="false" mnemonicParsing="false" onAction="#onClickOnMyGrount" prefHeight="46.0" prefWidth="58.0" scaleShape="false" stylesheets="@../style/button.css" userData="53" GridPane.columnIndex="4" GridPane.rowIndex="7" />
+              <Button fx:id="bt48" cacheShape="false" centerShape="false" focusTraversable="false" mnemonicParsing="false" onAction="#onClickOnMyGrount" prefHeight="53.0" prefWidth="44.0" scaleShape="false" stylesheets="@../style/button.css" userData="48" GridPane.columnIndex="9" GridPane.rowIndex="6" />
+              <Button fx:id="bt52" cacheShape="false" centerShape="false" focusTraversable="false" mnemonicParsing="false" onAction="#onClickOnMyGrount" prefHeight="35.0" prefWidth="42.0" scaleShape="false" stylesheets="@../style/button.css" userData="52" GridPane.columnIndex="3" GridPane.rowIndex="7" />
+              <Button fx:id="bt51" cacheShape="false" centerShape="false" focusTraversable="false" mnemonicParsing="false" onAction="#onClickOnMyGrount" prefHeight="47.0" prefWidth="68.0" scaleShape="false" stylesheets="@../style/button.css" userData="51" GridPane.columnIndex="2" GridPane.rowIndex="7" />
+              <Button fx:id="bt50" cacheShape="false" centerShape="false" focusTraversable="false" mnemonicParsing="false" onAction="#onClickOnMyGrount" prefHeight="50.0" prefWidth="53.0" scaleShape="false" stylesheets="@../style/button.css" userData="50" GridPane.columnIndex="1" GridPane.rowIndex="7" />
+              <Button fx:id="bt59" cacheShape="false" centerShape="false" focusTraversable="false" mnemonicParsing="false" onAction="#onClickOnMyGrount" prefHeight="50.0" prefWidth="59.0" scaleShape="false" stylesheets="@../style/button.css" userData="59" GridPane.columnIndex="10" GridPane.rowIndex="7" />
+              <Button fx:id="bt47" cacheShape="false" centerShape="false" focusTraversable="false" mnemonicParsing="false" onAction="#onClickOnMyGrount" prefHeight="49.0" prefWidth="61.0" scaleShape="false" stylesheets="@../style/button.css" userData="47" GridPane.columnIndex="8" GridPane.rowIndex="6" />
+              <Button fx:id="bt46" cacheShape="false" centerShape="false" focusTraversable="false" mnemonicParsing="false" onAction="#onClickOnMyGrount" prefHeight="46.0" prefWidth="53.0" scaleShape="false" stylesheets="@../style/button.css" userData="46" GridPane.columnIndex="7" GridPane.rowIndex="6" />
+              <Button fx:id="bt45" cacheShape="false" centerShape="false" focusTraversable="false" mnemonicParsing="false" onAction="#onClickOnMyGrount" prefHeight="59.0" prefWidth="59.0" scaleShape="false" stylesheets="@../style/button.css" userData="45" GridPane.columnIndex="6" GridPane.rowIndex="6" />
+              <Button fx:id="bt44" cacheShape="false" centerShape="false" focusTraversable="false" mnemonicParsing="false" onAction="#onClickOnMyGrount" prefHeight="46.0" prefWidth="55.0" scaleShape="false" stylesheets="@../style/button.css" userData="44" GridPane.columnIndex="5" GridPane.rowIndex="6" />
+              <Button fx:id="bt43" cacheShape="false" centerShape="false" focusTraversable="false" mnemonicParsing="false" onAction="#onClickOnMyGrount" prefHeight="50.0" prefWidth="66.0" scaleShape="false" stylesheets="@../style/button.css" userData="43" GridPane.columnIndex="4" GridPane.rowIndex="6" />
+              <Button fx:id="bt42" cacheShape="false" centerShape="false" focusTraversable="false" mnemonicParsing="false" onAction="#onClickOnMyGrount" prefHeight="47.0" prefWidth="57.0" scaleShape="false" stylesheets="@../style/button.css" userData="42" GridPane.columnIndex="3" GridPane.rowIndex="6" />
+              <Button fx:id="bt41" cacheShape="false" centerShape="false" focusTraversable="false" mnemonicParsing="false" onAction="#onClickOnMyGrount" prefHeight="51.0" prefWidth="51.0" scaleShape="false" stylesheets="@../style/button.css" userData="41" GridPane.columnIndex="2" GridPane.rowIndex="6" />
+              <Button fx:id="bt40" cacheShape="false" centerShape="false" focusTraversable="false" mnemonicParsing="false" onAction="#onClickOnMyGrount" prefHeight="45.0" prefWidth="53.0" scaleShape="false" stylesheets="@../style/button.css" userData="40" GridPane.columnIndex="1" GridPane.rowIndex="6" />
+              <Button fx:id="bt49" cacheShape="false" centerShape="false" focusTraversable="false" mnemonicParsing="false" onAction="#onClickOnMyGrount" prefHeight="52.0" prefWidth="62.0" scaleShape="false" stylesheets="@../style/button.css" userData="49" GridPane.columnIndex="10" GridPane.rowIndex="6" />
+              <Button fx:id="bt35" cacheShape="false" centerShape="false" ellipsisString="" focusTraversable="false" mnemonicParsing="false" onAction="#onClickOnMyGrount" prefHeight="53.0" prefWidth="57.0" scaleShape="false" stylesheets="@../style/button.css" userData="35" GridPane.columnIndex="6" GridPane.rowIndex="5" />
+              <Button fx:id="bt32" cacheShape="false" centerShape="false" ellipsisString="" focusTraversable="false" mnemonicParsing="false" onAction="#onClickOnMyGrount" prefHeight="50.0" prefWidth="52.0" scaleShape="false" stylesheets="@../style/button.css" userData="32" GridPane.columnIndex="3" GridPane.rowIndex="5" />
+              <Button fx:id="bt31" cacheShape="false" centerShape="false" ellipsisString="" focusTraversable="false" mnemonicParsing="false" onAction="#onClickOnMyGrount" prefHeight="46.0" prefWidth="56.0" scaleShape="false" stylesheets="@../style/button.css" userData="31" GridPane.columnIndex="2" GridPane.rowIndex="5" />
+              <Button fx:id="bt30" cacheShape="false" centerShape="false" ellipsisString="" focusTraversable="false" mnemonicParsing="false" onAction="#onClickOnMyGrount" prefHeight="48.0" prefWidth="48.0" scaleShape="false" stylesheets="@../style/button.css" userData="30" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+              <Button fx:id="bt28" cacheShape="false" centerShape="false" ellipsisString="" focusTraversable="false" mnemonicParsing="false" onAction="#onClickOnMyGrount" prefHeight="49.0" prefWidth="47.0" scaleShape="false" stylesheets="@../style/button.css" userData="28" GridPane.columnIndex="9" GridPane.rowIndex="4" />
+              <Button fx:id="bt09" cacheShape="false" centerShape="false" focusTraversable="false" mnemonicParsing="false" onAction="#onClickOnMyGrount" prefHeight="49.0" prefWidth="51.0" scaleShape="false" stylesheets="@../style/button.css" userData="09" GridPane.columnIndex="10" GridPane.rowIndex="2" />
+              <Button fx:id="bt93" cacheShape="false" centerShape="false" ellipsisString="" focusTraversable="false" mnemonicParsing="false" onAction="#onClickOnMyGrount" prefHeight="47.0" prefWidth="59.0" scaleShape="false" stylesheets="@../style/button.css" userData="93" GridPane.columnIndex="4" GridPane.rowIndex="11" />
+              <Button fx:id="bt92" cacheShape="false" centerShape="false" ellipsisString="" focusTraversable="false" mnemonicParsing="false" onAction="#onClickOnMyGrount" prefHeight="43.0" prefWidth="40.0" stylesheets="@../style/button.css" userData="92" GridPane.columnIndex="3" GridPane.rowIndex="11" />
+              <Button fx:id="bt91" cacheShape="false" centerShape="false" ellipsisString="" focusTraversable="false" mnemonicParsing="false" onAction="#onClickOnMyGrount" prefHeight="49.0" prefWidth="60.0" scaleShape="false" stylesheets="@../style/button.css" userData="91" GridPane.columnIndex="2" GridPane.rowIndex="11" />
+              <Button fx:id="bt97" cacheShape="false" centerShape="false" ellipsisString="" focusTraversable="false" mnemonicParsing="false" onAction="#onClickOnMyGrount" prefHeight="56.0" prefWidth="53.0" scaleShape="false" stylesheets="@../style/button.css" userData="97" GridPane.columnIndex="8" GridPane.rowIndex="11" />
+              <Button fx:id="bt96" cacheShape="false" centerShape="false" ellipsisString="" focusTraversable="false" mnemonicParsing="false" onAction="#onClickOnMyGrount" prefHeight="56.0" prefWidth="52.0" scaleShape="false" stylesheets="@../style/button.css" userData="96" GridPane.columnIndex="7" GridPane.rowIndex="11" />
+              <Button fx:id="bt95" cacheShape="false" centerShape="false" ellipsisString="" focusTraversable="false" mnemonicParsing="false" onAction="#onClickOnMyGrount" prefHeight="69.0" prefWidth="82.0" scaleShape="false" stylesheets="@../style/button.css" userData="95" GridPane.columnIndex="6" GridPane.rowIndex="11" />
+              <Button fx:id="bt94" cacheShape="false" centerShape="false" ellipsisString="" focusTraversable="false" mnemonicParsing="false" onAction="#onClickOnMyGrount" prefHeight="57.0" prefWidth="48.0" scaleShape="false" stylesheets="@../style/button.css" userData="94" GridPane.columnIndex="5" GridPane.rowIndex="11" />
+              <Button fx:id="bt01" cacheShape="false" centerShape="false" ellipsisString="" focusTraversable="false" mnemonicParsing="false" onAction="#onClickOnMyGrount" prefHeight="42.0" prefWidth="47.0" scaleShape="false" stylesheets="@../style/button.css" userData="01" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+              <Button fx:id="bt00" cacheShape="false" centerShape="false" ellipsisString="" focusTraversable="false" mnemonicParsing="false" onAction="#onClickOnMyGrount" prefHeight="45.0" prefWidth="48.0" scaleShape="false" stylesheets="@../style/button.css" userData="00" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+              <Button fx:id="bt98" cacheShape="false" centerShape="false" ellipsisString="" focusTraversable="false" mnemonicParsing="false" onAction="#onClickOnMyGrount" prefHeight="51.0" prefWidth="55.0" scaleShape="false" stylesheets="@../style/button.css" userData="98" GridPane.columnIndex="9" GridPane.rowIndex="11" />
+              <Button fx:id="bt27" cacheShape="false" centerShape="false" ellipsisString="" focusTraversable="false" mnemonicParsing="false" onAction="#onClickOnMyGrount" prefHeight="45.0" prefWidth="51.0" scaleShape="false" stylesheets="@../style/button.css" userData="27" GridPane.columnIndex="8" GridPane.rowIndex="4" />
+              <Button fx:id="bt26" cacheShape="false" centerShape="false" ellipsisString="" focusTraversable="false" mnemonicParsing="false" onAction="#onClickOnMyGrount" prefHeight="50.0" prefWidth="54.0" scaleShape="false" stylesheets="@../style/button.css" userData="26" GridPane.columnIndex="7" GridPane.rowIndex="4" />
+              <Button fx:id="bt25" cacheShape="false" centerShape="false" ellipsisString="" focusTraversable="false" mnemonicParsing="false" onAction="#onClickOnMyGrount" prefHeight="42.0" prefWidth="45.0" scaleShape="false" stylesheets="@../style/button.css" userData="25" GridPane.columnIndex="6" GridPane.rowIndex="4" />
+              <Button fx:id="bt24" cacheShape="false" centerShape="false" ellipsisString="" focusTraversable="false" mnemonicParsing="false" onAction="#onClickOnMyGrount" prefHeight="46.0" prefWidth="52.0" scaleShape="false" stylesheets="@../style/button.css" userData="24" GridPane.columnIndex="5" GridPane.rowIndex="4" />
+              <Button fx:id="bt23" cacheShape="false" centerShape="false" ellipsisString="" focusTraversable="false" mnemonicParsing="false" onAction="#onClickOnMyGrount" prefHeight="50.0" prefWidth="51.0" scaleShape="false" stylesheets="@../style/button.css" userData="23" GridPane.columnIndex="4" GridPane.rowIndex="4" />
+              <Button fx:id="bt22" cacheShape="false" centerShape="false" ellipsisString="" focusTraversable="false" mnemonicParsing="false" onAction="#onClickOnMyGrount" prefHeight="48.0" prefWidth="55.0" scaleShape="false" stylesheets="@../style/button.css" userData="22" GridPane.columnIndex="3" GridPane.rowIndex="4" />
+              <Button fx:id="bt21" cacheShape="false" centerShape="false" ellipsisString="" focusTraversable="false" mnemonicParsing="false" onAction="#onClickOnMyGrount" prefHeight="48.0" prefWidth="54.0" scaleShape="false" stylesheets="@../style/button.css" userData="21" GridPane.columnIndex="2" GridPane.rowIndex="4" />
+              <Button fx:id="bt20" cacheShape="false" centerShape="false" ellipsisString="" focusTraversable="false" mnemonicParsing="false" onAction="#onClickOnMyGrount" prefHeight="40.0" prefWidth="45.0" scaleShape="false" stylesheets="@../style/button.css" userData="20" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+              <Button fx:id="bt29" cacheShape="false" centerShape="false" ellipsisString="" focusTraversable="false" mnemonicParsing="false" onAction="#onClickOnMyGrount" prefHeight="46.0" prefWidth="57.0" scaleShape="false" stylesheets="@../style/button.css" userData="29" GridPane.columnIndex="10" GridPane.rowIndex="4" />
+              <Button fx:id="bt18" cacheShape="false" centerShape="false" ellipsisString="" focusTraversable="false" mnemonicParsing="false" onAction="#onClickOnMyGrount" prefHeight="50.0" prefWidth="47.0" scaleShape="false" stylesheets="@../style/button.css" userData="18" GridPane.columnIndex="9" GridPane.rowIndex="3" />
+              <Button fx:id="bt17" cacheShape="false" centerShape="false" ellipsisString="" focusTraversable="false" mnemonicParsing="false" onAction="#onClickOnMyGrount" prefHeight="42.0" prefWidth="42.0" scaleShape="false" stylesheets="@../style/button.css" userData="17" GridPane.columnIndex="8" GridPane.rowIndex="3" />
+              <Button fx:id="bt16" cacheShape="false" centerShape="false" ellipsisString="" focusTraversable="false" mnemonicParsing="false" onAction="#onClickOnMyGrount" prefHeight="46.0" prefWidth="47.0" scaleShape="false" stylesheets="@../style/button.css" userData="16" GridPane.columnIndex="7" GridPane.rowIndex="3" />
+              <Button fx:id="bt15" cacheShape="false" centerShape="false" ellipsisString="" focusTraversable="false" mnemonicParsing="false" onAction="#onClickOnMyGrount" prefHeight="48.0" prefWidth="47.0" scaleShape="false" stylesheets="@../style/button.css" userData="15" GridPane.columnIndex="6" GridPane.rowIndex="3" />
+              <Button fx:id="bt14" cacheShape="false" centerShape="false" ellipsisString="" focusTraversable="false" mnemonicParsing="false" onAction="#onClickOnMyGrount" prefHeight="42.0" prefWidth="44.0" scaleShape="false" stylesheets="@../style/button.css" userData="14" GridPane.columnIndex="5" GridPane.rowIndex="3" />
+              <Button fx:id="bt13" cacheShape="false" centerShape="false" ellipsisString="" focusTraversable="false" mnemonicParsing="false" onAction="#onClickOnMyGrount" prefHeight="44.0" prefWidth="45.0" scaleShape="false" stylesheets="@../style/button.css" userData="13" GridPane.columnIndex="4" GridPane.rowIndex="3" />
+              <Button fx:id="bt12" cacheShape="false" centerShape="false" ellipsisString="" focusTraversable="false" mnemonicParsing="false" onAction="#onClickOnMyGrount" prefHeight="54.0" prefWidth="51.0" scaleShape="false" stylesheets="@../style/button.css" userData="12" GridPane.columnIndex="3" GridPane.rowIndex="3" />
+              <Button fx:id="bt11" cacheShape="false" centerShape="false" ellipsisString="" focusTraversable="false" mnemonicParsing="false" onAction="#onClickOnMyGrount" prefHeight="57.0" prefWidth="57.0" scaleShape="false" stylesheets="@../style/button.css" userData="11" GridPane.columnIndex="2" GridPane.rowIndex="3" />
+              <Button fx:id="bt38" cacheShape="false" centerShape="false" ellipsisString="" focusTraversable="false" mnemonicParsing="false" onAction="#onClickOnMyGrount" prefHeight="46.0" prefWidth="53.0" scaleShape="false" stylesheets="@../style/button.css" userData="38" GridPane.columnIndex="9" GridPane.rowIndex="5" />
+              <Button fx:id="bt10" cacheShape="false" centerShape="false" ellipsisString="" focusTraversable="false" mnemonicParsing="false" onAction="#onClickOnMyGrount" prefHeight="54.0" prefWidth="78.0" scaleShape="false" stylesheets="@../style/button.css" userData="10" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+              <Button fx:id="bt19" cacheShape="false" centerShape="false" ellipsisString="" focusTraversable="false" mnemonicParsing="false" onAction="#onClickOnMyGrount" prefHeight="51.0" prefWidth="56.0" scaleShape="false" stylesheets="@../style/button.css" userData="19" GridPane.columnIndex="10" GridPane.rowIndex="3" />
+              <Button fx:id="bt39" cacheShape="false" centerShape="false" ellipsisString="" focusTraversable="false" mnemonicParsing="false" onAction="#onClickOnMyGrount" prefHeight="48.0" prefWidth="50.0" scaleShape="false" stylesheets="@../style/button.css" userData="39" GridPane.columnIndex="10" GridPane.rowIndex="5" />
+              <Button fx:id="bt08" cacheShape="false" centerShape="false" ellipsisString="" focusTraversable="false" mnemonicParsing="false" onAction="#onClickOnMyGrount" prefHeight="39.0" prefWidth="50.0" scaleShape="false" stylesheets="@../style/button.css" userData="08" GridPane.columnIndex="9" GridPane.rowIndex="2" />
+              <Button fx:id="bt07" cacheShape="false" centerShape="false" ellipsisString="" focusTraversable="false" mnemonicParsing="false" onAction="#onClickOnMyGrount" prefHeight="42.0" prefWidth="42.0" scaleShape="false" stylesheets="@../style/button.css" userData="07" GridPane.columnIndex="8" GridPane.rowIndex="2" />
+              <Button fx:id="bt06" cacheShape="false" centerShape="false" ellipsisString="" focusTraversable="false" mnemonicParsing="false" onAction="#onClickOnMyGrount" prefHeight="44.0" prefWidth="48.0" scaleShape="false" stylesheets="@../style/button.css" userData="06" GridPane.columnIndex="7" GridPane.rowIndex="2" />
+              <Button fx:id="bt05" cacheShape="false" centerShape="false" ellipsisString="" focusTraversable="false" mnemonicParsing="false" onAction="#onClickOnMyGrount" prefHeight="43.0" prefWidth="39.0" scaleShape="false" stylesheets="@../style/button.css" userData="05" GridPane.columnIndex="6" GridPane.rowIndex="2" />
+              <Button fx:id="bt04" cacheShape="false" centerShape="false" ellipsisString="" focusTraversable="false" mnemonicParsing="false" onAction="#onClickOnMyGrount" prefHeight="42.0" prefWidth="44.0" scaleShape="false" stylesheets="@../style/button.css" userData="04" GridPane.columnIndex="5" GridPane.rowIndex="2" />
+              <Button fx:id="bt03" cacheShape="false" centerShape="false" ellipsisString="" focusTraversable="false" mnemonicParsing="false" onAction="#onClickOnMyGrount" prefHeight="43.0" prefWidth="44.0" scaleShape="false" stylesheets="@../style/button.css" userData="03" GridPane.columnIndex="4" GridPane.rowIndex="2" />
+              <Button fx:id="bt02" cacheShape="false" centerShape="false" ellipsisString="" focusTraversable="false" mnemonicParsing="false" onAction="#onClickOnMyGrount" prefHeight="43.0" prefWidth="51.0" scaleShape="false" stylesheets="@../style/button.css" userData="02" GridPane.columnIndex="3" GridPane.rowIndex="2" />
+              <Button fx:id="bt33" cacheShape="false" centerShape="false" ellipsisString="" focusTraversable="false" mnemonicParsing="false" onAction="#onClickOnMyGrount" prefHeight="44.0" prefWidth="48.0" scaleShape="false" stylesheets="@../style/button.css" userData="33" GridPane.columnIndex="4" GridPane.rowIndex="5" />
+              <Button fx:id="bt34" cacheShape="false" centerShape="false" ellipsisString="" focusTraversable="false" mnemonicParsing="false" onAction="#onClickOnMyGrount" prefHeight="50.0" prefWidth="45.0" scaleShape="false" stylesheets="@../style/button.css" userData="34" GridPane.columnIndex="5" GridPane.rowIndex="5" />
+              <Button fx:id="bt37" cacheShape="false" centerShape="false" ellipsisString="" focusTraversable="false" mnemonicParsing="false" onAction="#onClickOnMyGrount" prefHeight="46.0" prefWidth="46.0" scaleShape="false" stylesheets="@../style/button.css" userData="37" GridPane.columnIndex="8" GridPane.rowIndex="5" />
+              <Button fx:id="bt36" cacheShape="false" centerShape="false" ellipsisString="" focusTraversable="false" mnemonicParsing="false" onAction="#onClickOnMyGrount" prefHeight="51.0" prefWidth="49.0" scaleShape="false" stylesheets="@../style/button.css" userData="36" GridPane.columnIndex="7" GridPane.rowIndex="5" />
+          </children>
+      </GridPane>
+      <Label contentDisplay="CENTER" text="Me" textAlignment="CENTER">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+
+         </children>
+         <GridPane.margin>
+            <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+         </GridPane.margin>
+      </GridPane>

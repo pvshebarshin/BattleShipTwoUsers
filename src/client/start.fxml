@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="182.0" prefWidth="295.0" xmlns="http://javafx.com/javafx/10.0.2-internal"
+            xmlns:fx="http://javafx.com/fxml/1" fx:controller="client.StartController">
+   <Button layoutX="196.0" layoutY="134.0" mnemonicParsing="false" onAction="#OnClick" text="Start"/>
+   <TextField fx:id="portText" layoutX="32.0" layoutY="32.0"/>
+   <TextField fx:id="hostText" layoutX="32.0" layoutY="83.0"/>
+   <Label layoutX="200.0" layoutY="36.0" text="Port"/>
+   <Label layoutX="200.0" layoutY="87.0" text="Host Name"/>
+</AnchorPane>
